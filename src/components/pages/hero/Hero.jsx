@@ -25,7 +25,7 @@ const Hero = () => {
                 <Layout>
                   <div className="bg-white/20 border border-white/30 backdrop-blur-lg px-8 py-6 rounded-xl shadow-xl w-[380px] max-w-full text-white space-y-5">
                     <div className="space-y-3">
-                      <h1 className="text-[22px] sm:text-3xl font-bold leading-snug drop-shadow-md max-w-[260px] sm:max-w-full text-center sm:text-left mx-auto sm:mx-0">
+                      <h1 className="text-[22px] sm:text-3xl font-bold leading-snug drop-shadow-md max-w-[260px] sm:max-w-full sm:text-left mx-auto sm:mx-0">
   We Take care of your Healthy Health
 </h1>
 
@@ -60,7 +60,7 @@ const Hero = () => {
                 <Layout>
                   <div className="bg-white/20 border border-white/30 backdrop-blur-lg px-8 py-6 rounded-xl shadow-xl w-[380px] max-w-full text-white space-y-5">
                     <div className="space-y-3">
-                      <h1 className="text-[22px] sm:text-3xl font-bold leading-snug drop-shadow-md max-w-[260px] sm:max-w-full text-center sm:text-left mx-auto sm:mx-0">
+                      <h1 className="text-[22px] sm:text-3xl font-bold leading-snug drop-shadow-md max-w-[260px] sm:max-w-full  sm:text-left mx-auto sm:mx-0">
   We Take care of your Healthy Health
 </h1>
                       <p className="text-sm text-white/80 font-light">
@@ -95,7 +95,7 @@ const Hero = () => {
                 <Layout>
                   <div className="bg-white/20 border border-white/30 backdrop-blur-lg px-8 py-6 rounded-xl shadow-xl w-[380px] max-w-full text-white space-y-5">
                     <div className="space-y-3">
-                      <h1 className="text-[22px] sm:text-3xl font-bold leading-snug drop-shadow-md max-w-[260px] sm:max-w-full text-center sm:text-left mx-auto sm:mx-0">
+                      <h1 className="text-[22px] sm:text-3xl font-bold leading-snug drop-shadow-md max-w-[260px] sm:max-w-full sm:text-left mx-auto sm:mx-0">
   We Take care of your Healthy Health
 </h1>
 
