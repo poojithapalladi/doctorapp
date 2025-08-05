@@ -26,7 +26,6 @@ const About = () => {
               <FiChevronRight className="text-xl" />
             </button>
           </div>
-
           {/* RIGHT IMAGE + BUTTONS SECTION */}
           <div className="md:w-1/2 w-full relative rounded-2xl overflow-hidden">
             <img

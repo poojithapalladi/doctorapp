@@ -9,19 +9,20 @@ const Appointment = () => {
  
  
  
- <div className="relative w-full max-w-md mx-auto rounded-xl overflow-hidden shadow-lg">
+ {/* Working Hours Card - Fully Responsive */}
+<div className="relative w-full md:max-w-md rounded-xl overflow-hidden shadow-lg mx-auto md:mx-0">
   <img
     src="https://cdn.pixabay.com/photo/2021/11/21/06/16/female-6813278_640.png"
     alt="working hours"
-    className="w-full h-full object-cover"
+    className="w-full h-96 object-cover"
   />
-  <div className="absolute inset-0 bg-black/60 flex items-center justify-center px-6 py-8">
-    <div className="w-full bg-white/10 backdrop-blur-lg border border-white/20 rounded-lg px-6 py-6 text-white space-y-4">
-      <h1 className="text-2xl font-semibold text-black text-center">Working Hours</h1>
-      <p className="text-sm text-white/90 text-center">
+  <div className="absolute inset-0 bg-black/60 flex items-center justify-center p-4 sm:p-6 md:p-8">
+    <div className="w-full bg-white/10 backdrop-blur-md border border-white/20 rounded-xl px-4 sm:px-6 py-6 text-white space-y-3 sm:space-y-4">
+      <h1 className="text-xl sm:text-2xl font-semibold text-center text-white">Working Hours</h1>
+      <p className="text-xs sm:text-sm text-center text-white/90">
         This hospital operates only on the following days and hours:
       </p>
-      <div className="text-sm space-y-2">
+      <div className="text-xs sm:text-sm space-y-1 sm:space-y-2">
         <p className="flex justify-between border-b border-white/20 pb-1">
           <span>Sunday - Monday</span>
           <span>8:00 AM - 8:00 PM</span>
@@ -43,12 +44,13 @@ const Appointment = () => {
           <span>24/7</span>
         </p>
       </div>
-      <p className="text-xs text-center text-white/80 mt-2">
+      <p className="text-[11px] text-white/80 text-center">
         For emergencies, please contact us or book an appointment.
       </p>
     </div>
   </div>
 </div>
+
 
 
 

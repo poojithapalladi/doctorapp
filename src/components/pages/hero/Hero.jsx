@@ -94,10 +94,10 @@ const Hero = () => {
                 <Layout>
                   <div className="bg-white/20 border border-white/30 backdrop-blur-lg px-8 py-6 rounded-xl shadow-xl w-[380px] max-w-full text-white space-y-5">
                     <div className="space-y-3">
-                      <h1 className="text-3xl font-bold leading-snug drop-shadow-md">
-                        We Take care of your <br /> Healthy Health
-                      </h1>
-                      <p className="text-sm text-white/80 font-light">
+                      <h1 className="text-2xl sm:text-3xl font-bold leading-snug drop-shadow-md w-[260px] sm:w-full text-left sm:text-left">
+  We Take care of your Healthy Health
+</h1>
+   <p className="text-sm text-white/80 font-light">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
                         architecto itaque optio eos illum. Tenetur praesentium
                         reiciendis ducimus molestias soluta.
