@@ -21,6 +21,10 @@ npm install
 ### 4. Start the development server
 npm run dev  or npm start
 
+Live deployment Link:https://doctorshealthcare.netlify.app
+
+
+
 
  
 ✨ Features
