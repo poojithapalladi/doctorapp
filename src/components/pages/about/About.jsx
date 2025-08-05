@@ -21,11 +21,12 @@ const About = () => {
                 incidunt voluptatibus eum nihil atque eos!
               </p>
             </div>
-            <button className="px-6 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-600 font-medium flex items-center gap-2 transition">
+            <button className="px-6 py-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 font-medium flex items-center gap-2 transition">
               Read More
               <FiChevronRight className="text-xl" />
             </button>
           </div>
+
           {/* RIGHT IMAGE + BUTTONS SECTION */}
           <div className="md:w-1/2 w-full relative rounded-2xl overflow-hidden">
             <img
@@ -34,14 +35,14 @@ const About = () => {
               className="w-full h-full object-cover object-center"
             />
             <div className="absolute inset-0 bg-gradient-to-tr from-neutral-900/70 to-transparent flex items-center justify-center px-6">
-              <div className="w-full md:w-[80%] space-y-4">
+              <div className="w-full flex flex-col gap-4 items-center max-w-md">
                 {['Appointment', 'Find Doctors', 'Emergency Contact'].map((label, idx) => (
                   <button
                     key={idx}
-                    className="w-full px-6 py-4 text-white font-medium text-lg rounded-xl border-2 border-white/60 bg-white/20 hover:bg-transparent hover:text-white transition flex items-center justify-between"
+                    className="w-full px-6 py-3 text-white font-medium text-base rounded-full border border-white/70 bg-white/10 hover:bg-white/20 hover:text-white transition flex items-center justify-between"
                   >
-                    {label}
-                    <HiChevronDoubleRight className="text-2xl" />
+                    <span>{label}</span>
+                    <HiChevronDoubleRight className="text-xl" />
                   </button>
                 ))}
               </div>
