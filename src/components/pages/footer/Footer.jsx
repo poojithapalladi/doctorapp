@@ -73,19 +73,19 @@ const Footer = () => {
   <h2 className="text-xl font-semibold whitespace-nowrap">Connect With Us</h2>
   <div className="flex items-center gap-4">
     <Link
-      to="/gtech.official08"
+      to="/"
       className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center hover:bg-blue-200"
     >
       <FaInstagram className="text-blue-500" />
     </Link>
     <Link
-      to="/gtech.official08"
+      to="/"
       className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center hover:bg-blue-200"
     >
       <FaYoutube className="text-blue-500" />
     </Link>
     <Link
-      to="/gtech.official08"
+      to="/"
       className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center hover:bg-blue-200"
     >
       <FaFacebookF className="text-blue-500" />
@@ -104,7 +104,7 @@ const Footer = () => {
           <p>
             Designed and Developed by
             <Link
-              to="https://www.youtube.com/@g-techofficial08"
+              to="https://github.com/poojithapalladi/doctorapp.git"
               target="_blank"
               className="text-blue-500 ml-1 hover:underline"
             >
