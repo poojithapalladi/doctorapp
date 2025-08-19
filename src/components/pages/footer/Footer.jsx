@@ -106,7 +106,7 @@ const Footer = () => {
             <Link
               to="https://github.com/poojithapalladi/doctorapp.git"
               target="_blank"
-              className="text-blue-500 ml-1 hover:underline color:blue"
+              className="text-blue-500 ml-1 hover:underline"
             >
               Poojitha Palladi
             </Link>
